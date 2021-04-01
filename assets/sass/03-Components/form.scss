@@ -1,0 +1,176 @@
+#pfm-form  {
+    margin-top: calc(var(--variable-width) * 2);
+    margin-left: auto;
+    margin-right: auto;
+    padding: calc(var(--variable-width) * 2);
+
+    border: 2px solid var(--global--border-grey);
+    border-radius: var(--global--border-radius);
+    width: calc(100% - 1em);
+
+    background-color: var(--global--color-background-secondary);
+
+    display: flex;
+    flex-flow: column;
+  
+    
+    fieldset {
+        margin-top: var(--global--form-margin-top);
+        margin-top: var(--global--form-margin-bottom);
+        margin-left: auto;
+        margin-right: auto;
+        padding: calc(var(--variable-width) * 2);
+
+        display: flex;
+        flex-flow: column;
+
+        border: 0px solid var(--global--border-grey);
+        border-radius: var(--global--border-radius);
+
+        width: calc(100% - 1em);
+    }
+    
+    legend {
+        margin-top: var(--global--form-margin-top);
+        padding: calc(var(--variable-width) * .75);
+        
+        border-bottom: 1px solid var(--global--border-grey);
+        background-image: linear-gradient(60deg, var(--global--color-light-purple), var(--global--color-background-secondary));
+        //background-color: var(--global--color-background-primary);
+
+        width: 100%;
+        
+        text-transform: uppercase;
+        font-weight: bold;
+        
+    }
+    
+    label {
+        margin-top: var(--global--form-margin-top);
+        margin-top: var(--global--form-margin-bottom);
+        display: block;    
+        
+        text-align: left;
+        text-transform: uppercase;
+       
+        //@include font-size($form-label-font-size);
+        //font-style: $form-label-font-style;
+        //font-weight: $form-label-font-weight;
+        //color: $form-label-color;
+    }
+    
+    .required {        
+        font-weight: var(--global--font-weight-bold);
+
+        &::after {
+            content: '*';
+            color: var(--global--color-purple);
+        }
+
+    }
+
+    
+    input[type=text], input[type=email], input[type=tel], .results {
+        margin-top: var(--global--form-margin-bottom);
+        padding: calc(var(--variable-width) * .5);  
+        
+        border: 1px solid #ccc;
+        border-radius: var(--global--border-radius);
+
+        &:focus {
+            //background-color: var(--global--color-light-grey);
+            border-color: var(--global--color-light-purple);
+            box-shadow: 0 0 10px #719ECE;
+          }
+    
+    }
+    
+
+    input[type=date] {
+        margin-top: calc(var(--variable-width) * .5);
+        padding: calc(var(--variable-width) * .75);
+    
+        border: 1px solid #ccc;
+        border-radius: var(--global--border-radius);
+
+        &:focus {
+            //background-color: var(--global--color-light-grey);
+            border-color: var(--global--color-light-purple);
+            box-shadow: 0 0 10px #719ECE;
+          }
+    
+    }
+
+    
+    select {
+        margin-top: calc(var(--variable-width) * .5);
+        padding: calc(var(--variable-width) * .75);
+
+        border: 1px solid #ccc;
+        border-radius: var(--global--border-radius);
+
+        &:focus {
+            //background-color: var(--global--color-light-grey);
+            border-color: var(--global--color-light-purple);
+            box-shadow: 0 0 10px #719ECE;
+          }
+    }
+    
+    
+    [type="radio"],  [type="checkmark"] {
+        margin-right: .5rem;
+        
+        :first-child {
+            margin-top: var(--global--form-margin-top);
+        }
+    }    
+    
+    .buttonContainer {
+        margin-top: calc(var(--variable-width) * 0);
+        margin-left: auto;
+        margin-right: auto;
+        padding: calc(var(--variable-width) * 2);
+        
+    }
+        
+    .button {
+    
+        border-radius: var(--global--border-radius);
+        border: 1px solid var(--global--border-grey);
+        
+        height: 3em;
+    
+        text-align: center;
+        transition-duration: 0.4s;
+    
+        // Ensure buttons are always above inputs for more visually pleasing borders.
+        &:hover {
+            background-color: #8475AC;
+            color: white;
+        }
+        &:focus {
+            z-index: 3;
+        }
+    
+    }
+        
+    
+    .newsletter {
+        padding: calc(var(--variable-width) * .55);
+
+        margin-left: auto;
+        margin-right: auto;
+
+        border: 1px solid #ccc;
+        border-radius: var(--global--border-radius);
+    
+        width: calc(100% - 2rem);
+        background-color: var(--global--color-light-purple);
+        text-align: left;
+    
+    }
+    
+
+
+      
+}

@@ -1,0 +1,22 @@
+:root {
+  --variable-width: 14px;
+  --global--font-family: arial, helvetica, sans-serif;
+  --global--font-family-secondary: Georgia, serif;
+  --global--header-h1: 24px;
+  --global--font-size: 15px;
+  --global--line-height-body: 1.25;
+  --global--font-weight: normal;
+  --global--font-weight-bold: 700;
+  --global--color-black: #000000;
+  --global--color-white: #ffffff;
+  --global--color-light-grey: #cccccc;
+  --global--color-purple: #8475AC;
+  --global--color-light-purple: #cfBAdf;
+  --global--color-background-primary: var(--global--color-purple);
+  --global--color-background-secondary: var(--global--color-white);
+  --global--color-body-primary: var(--global--color-black);
+  --global--border-grey: var(--global--color-light-grey);
+  --global--border-black: var(--global--color-black);
+  --global--border-radius: 4px;
+  --global--form-margin-top: calc(var(--variable-width) * .5);
+  --global--form-margin-bottom: calc(var(--variable-width) * .75); }

@@ -1,0 +1,11 @@
+header {
+  height: 5rem;
+  border: 0px solid var(--global--border-grey);
+  border-radius: 0px 0 0 0;
+  background-color: var(--global--color-background-primary);
+  background-image: url("./assets/img/jobcanada-logo.gif");
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  background-size: auto; }
+  header h1 {
+    display: none; }

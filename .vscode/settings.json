@@ -1,0 +1,13 @@
+{
+	"phpcs.standard": "PSR2",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontFamily": "DM Mono",
+	"editor.fontSize": 14,
+	"editor.fontFamily": "DM Mono, Menlo, Monaco, 'Courier New', monospace",
+	"editor.renderWhitespace": "none",
+	"workbench.colorCustomizations" : {
+		"terminal.foreground" : "#4596d8",
+		"terminal.background" : "#2b2d38"
+	}
+	
+}

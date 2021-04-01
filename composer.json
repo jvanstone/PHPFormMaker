@@ -1,0 +1,21 @@
+{
+    "name": "home/php-form-maker",
+    "description": "a PHP form maker, uses JSON and Bootstrap",
+    "type": "project",
+	"autoload": {
+		"psr-4": {
+			"PHPFormMaker\\": "src/"
+		}
+	},
+    "require": {
+        "phpmailer/phpmailer": "^6.3",
+        "suin/phpcs-psr4-sniff": "^2.2"
+    },
+    "license": "",
+    "authors": [
+        {
+            "name": "vanstoneonline",
+            "email": "jason@vanstoneonline.com"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+	"First Name" : [{
+		"type" : "text",
+		"required" : true	
+	}],
+	"Last Name" : [{
+		"type" : "text",
+		"required" : true
+	}],
+	"Email" : [{
+		"type" : "email",
+		"required" : true
+	}],
+	"How did you hear about us?" : [{
+		"type" : "select",
+		"required" : true,
+		"answers" : [{
+			"fb" : "Facebook",
+			"ig" : "Twitter",
+			"web" : "Website",
+			"friend" : "Friend",
+			"other" : "Other"
+		}]
+	}]
+}

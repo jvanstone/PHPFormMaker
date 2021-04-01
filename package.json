@@ -1,0 +1,23 @@
+{
+  "name": "PHPFormMaker",
+  "version": "1.0.0",
+  "description": "a form-maker using php, json and bootstrap",
+  "main": "index.php",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "php",
+    "javascript",
+    "sass"
+  ],
+  "author": "Vanstone Online <jason@vanstoneonline.com>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-sass": "^4.1.0",
+    "mkdirp": "^0.5.5"
+  }
+}

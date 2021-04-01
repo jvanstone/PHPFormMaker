@@ -1,0 +1,52 @@
+@import '01-General/about.scss';
+
+/****
+
+01 - General
+- Text Header
+- Font 
+- Global Settings
+
+02 - Generic
+- Reset
+- Normalize
+
+03 - Components 
+- Form
+- Blockquote
+
+04 - Layout
+- Header
+- Body
+- Footer
+
+*****/
+
+
+/* 01 - 03 General Set-up  */
+@import '01-General/global.scss';
+@import '01-General/fonts.scss';
+
+@import '02-Generic/normalize.scss';
+@import '02-Generic/reset.scss';
+@import '02-Generic/container.scss';
+
+
+/* 03 Components of the Website */
+@import '03-Components/form.scss';
+@import '03-Components/blockquote.scss';
+
+
+/* 04 Layout */
+@import '04-Layout/header.scss';
+@import '04-Layout/body.scss';
+@import '04-Layout/footer.scss';
+    
+
+
+
+
+
+
+
+ 
