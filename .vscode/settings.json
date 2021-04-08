@@ -8,6 +8,7 @@
 	"workbench.colorCustomizations" : {
 		"terminal.foreground" : "#4596d8",
 		"terminal.background" : "#2b2d38"
-	}
+	},
+	"git.ignoreLimitWarning": true
 	
 }
