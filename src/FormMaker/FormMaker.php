@@ -65,7 +65,7 @@ class FormMaker
     {
         //$this->select = $select;
         $this->array = $arrayAnswer;
-		echo is_array($this->array);
+        echo is_array($this->array);
         foreach ($this->array as $key => $arrays) {
             foreach (($arrays) as $array) {
                 foreach (($array) as $key => $value) {

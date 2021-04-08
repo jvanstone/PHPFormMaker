@@ -6,7 +6,7 @@
  * @package  PHPFormMaker
  * @author   Vanstone Online <jason@vanstoneonline.com>
  * @license  G.P.L Version 3.0 or higher
- * @link     https://jobcanada.org/immigration-assessment.php
+ * @link     https://vanstoneonline.com
  */
 
 $formArray = [

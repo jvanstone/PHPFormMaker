@@ -15,3 +15,8 @@ $username = "root";
 $password = "root!";
 $tableid = "test-table";
 $admin_email = "jason@vanstoneonline.com";
+
+$emailServer = 'mail.vanstoneonline.com';
+$emailPort = 587;
+$emailUser = 'jason@vanstoneonline.com';
+$emailPassword = '!!D*gTr3x!!';
