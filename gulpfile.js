@@ -7,12 +7,12 @@ const sass = require('gulp-sass');
 function connectsync() {
     phpConnect.server({
         // a standalone PHP server that browsersync connects to via proxy
-        port: 8080,
+        port: 8888,
 		keepalive: true,
 		dir: '/PHPFormMaker',
     }, function (){
         browsersync({
-            proxy: 'localhost/PHPFormMaker',
+            proxy: 'localhost:8888',
             injectChanges: 'true',
         });
     });
