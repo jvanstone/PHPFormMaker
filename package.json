@@ -505,5 +505,13 @@
     "yallist": "^2.1.2",
     "yeast": "^0.1.2",
     "yargs-parser": "^5.0.0-security.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvanstone/PHPFormMaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jvanstone/PHPFormMaker/issues"
+  },
+  "homepage": "https://github.com/jvanstone/PHPFormMaker#readme"
 }
